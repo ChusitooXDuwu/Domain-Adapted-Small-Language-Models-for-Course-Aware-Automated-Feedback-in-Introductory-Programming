@@ -1,0 +1,27 @@
+# secrets
+config.py
+.env
+.env.*
+
+# model weights, tokenizers and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.gguf
+qwen-socratic-feedback/
+checkpoint-*/
+
+# datasets
+*.jsonl
+
+# python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
